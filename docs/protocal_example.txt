@@ -1,0 +1,77 @@
+Settings:
+com2
+
+in text boxes:
+
+1
+10
+0.00001
+1
+30
+
+check_we is unchecked.
+
+changed as below
+
+
+1 mhz, 10x multiplier 30mhz standard Freq 1 pushed
+$WR 02 40 A7 0D 74 DA 00 45 *
+
+10 mhz, 10x multiplier 30mhz standard Freq 1 pushed
+$WR 02 88 88 88 88 88 08 B3 *
+
+100 mhz, 10x multiplier 30mhz standard Freq 1 pushed
+$WR 02 55 55 55 55 55 55 01 *
+
+.1 mhz, 10x multiplier 30mhz standard Freq 1 pushed
+$WR 02 EC C3 67 D8 15 00 06 *
+
+1 mhz, 1x multiplier 30mhz standard Freq 1 pushed
+$WR 02 88 88 88 88 88 08 B3 *
+
+10 mhz, 1x multiplier 30mhz standard Freq 1 pushed
+$WR 02 55 55 55 55 55 55 01 *
+
+100 mhz, 1x multiplier 30mhz standard Freq 1 pushed
+Overflow -- crash
+
+1 mhz, 5x multiplier 30mhz standard Freq 1 pushed
+$WR 02 81 4E 1B E8 B4 01 8A *
+
+10 mhz, 5x multiplier 30mhz standard Freq 1 pushed
+$WR 02 11 11 11 11 11 11 69 *
+
+100 mhz, 5x multiplier 30mhz standard Freq 1 pushed
+$WR 02 AA AA AA AA AA AA FF *
+
+
+Change Multiplier:
+triangle off amp off
+
+x1:
+$WR 07 40 80 20 00 00 00 E8*
+
+x5:
+$WR 07 40 80 05 00 00 00 CD *
+
+x10:
+$WR 07 40 80 4A 00 00 00 12 *
+
+
+turnning triangle on with x10:
+$WR 07 40 A0 4A 00 00 00 32 *
+
+turning on amp on with x10:
+$WR 07 60 80 4A 00 00 00 32 *
+
+amp on, x10, moved I to min:
+$WR 08 00 00 00 00 00 00 09 *
+
+amp on, x10, moved I to MAX:
+$WR 08 FF 0F 00 00 00 00 17 *
+
+amp on, x10, moved Q to MIN:
+$WR 09 00 00 00 00 00 00 0A *
+
+amp on, x10, moved Q to MAX:
+$WR 09 FF 0F 00 00 00 00 18 *
