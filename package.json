@@ -25,6 +25,10 @@
   },
   "homepage": "https://github.com/jbecwar/AD9854DDS#readme",
   "devDependencies": {
-    "lab": "^6.2.0"
+    "lab": "^6.2.0",
+    "code": "^1.5.0"
+  },
+  "dependencies": {
+
   }
 }
