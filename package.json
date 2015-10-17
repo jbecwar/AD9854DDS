@@ -1,0 +1,30 @@
+{
+  "name": "ad9854dds",
+  "version": "1.0.0",
+  "description": "Small App/Library to control AD9854 100Mhz Sine Wave DDS Signal Generator",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "lab -t 100",
+    "test-cov-html": "lab -r html -o coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbecwar/AD9854DDS.git"
+  },
+  "keywords": [
+    "AD9854",
+    "DDS"
+  ],
+  "author": "James Becwar",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jbecwar/AD9854DDS/issues"
+  },
+  "homepage": "https://github.com/jbecwar/AD9854DDS#readme",
+  "devDependencies": {
+    "lab": "^6.2.0"
+  }
+}
