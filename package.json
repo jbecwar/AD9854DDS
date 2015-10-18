@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "lab -t 100",
+    "test": "lab",
     "test-cov-html": "lab -r html -o coverage.html"
   },
   "repository": {
