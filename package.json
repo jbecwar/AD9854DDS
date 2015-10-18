@@ -29,6 +29,7 @@
     "code": "^1.5.0"
   },
   "dependencies": {
-    "long": "^2.4.0"
+    "long": "^2.4.0",
+    "serialport": "^2.0.1"
   }
 }
