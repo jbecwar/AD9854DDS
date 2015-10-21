@@ -10,7 +10,12 @@ serial.listPorts().then(function(ports) {
         return serial.open();
       })
       .then(function() {
-        serial.write(ad.setFreq(1));
+        //ad.setMultiplier(10);
+        //return serial.write(ad.buildConfigCommand());
+
+      })
+      .then(function() {
+        return serial.write(ad.setFreq(40));
       })
       .then(function() {
         return serial.close();
